@@ -16,7 +16,7 @@ public class DTLoots {
 
     public static void init() {
         ENCHANT_SET = registerFunction("enchant", new LootFunctionType(new EnchantSet.Serializer()));
-        ITEM_OR_DEFAULT = registerFunction("item_ore_default", new LootFunctionType(new DefaultItem.Serializer()));
+        ITEM_OR_DEFAULT = registerFunction("item_or_default", new LootFunctionType(new DefaultItem.Serializer()));
 
         MOD_IS_LOAD = registerCondition("mod_exists", new LootConditionType(new ModIsLoad.Serializer()));
     }
