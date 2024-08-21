@@ -8,7 +8,7 @@ import net.minecraft.loot.LootFunctionType;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.registry.Registry;
 
-//注册条件和函数
+//注册 条件和函数
 public class DTLoots {
     public static LootFunctionType ENCHANT_SET;
     public static LootFunctionType ITEM_OR_DEFAULT;
